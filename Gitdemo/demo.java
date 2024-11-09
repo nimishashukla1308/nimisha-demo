@@ -862,37 +862,161 @@
 //     // }
 //     }}
 
-public class demo{
+// public class demo{
    
-    public static void quicksort(int[] arr, int low , int high ) {
+//     public static void quicksort(int[] arr, int low , int high ) {
         
-        int arr[]= {5,3,6,1,4,2};
-        int temp = pivot;
-        quicksort(arr,0,arr.length-1);
+//         int arr[]= {5,3,6,1,4,2};
+//         int temp = pivot;
+//         quicksort(arr,0,arr.length-1);
 
-        for(int num :num){
-            System.out.println();
-        }
+//         for(int num :num){
+//             System.out.println();
+//         }
+    
          
 
 
-// partition{
-//         for(int j=0;j<arr.length;j++){
-//             if(arr[j]<pivot){
-//                 i++;
-//                 arr[j]= arr[i];
-//                 swapping(arr[i],arr[j]);}
-//         for (int i = -1;)}
+// // partition{
+// //         for(int j=0;j<arr.length;j++){
+// //             if(arr[j]<pivot){
+// //                 i++; 
+// //                 arr[j]= arr[i];
+// //                 swapping(arr[i],arr[j]);}
+// //         for (int i = -1;)}
 
+// public class demo{
+    
+//     public static void main(String[] args) {
+//         int arr[] = {2,3,4,7,6,5};
+//         int x =0;
+//         int target=7;
+        
+//         for(int i=0;i<arr.length;i++){
+            
+//                     if(arr[i]==target){
+//                         System.out.println("Target found " + ":"+arr[i]);}
+                    
+//                     if(arr[i+1]<arr.length){
+
+//                         x=arr[i+1];
+//                         System.out.println(arr[i+1]);
+                        
+
+//                     }
+//                 // System.out.println(arr[i+1]);
+                    
+                    
+
+//                 }
+//                 for(int num:arr){
+//                 System.out.println("After Sorting"+":"+num);
+
+//                 }
+                
+              
+                
+
+//                 // if(arr[i]<target)
+// }
+//                 //     arr[j]=arr[i+1];
+//                 //     int x =arr[j+1];
+//                 //     int x=arr[i+1];
+
+//     }
 
 
             
+// public class demo {
+    
+//     public static void main(String[] args) {
+//         int arr[] = {2, 3, 4, 7, 6, 5};
+//         int target = 7;
+
+//         // Iterate through the array
+//         for (int i = 0; i < arr.length; i++) {
+//             System.out.println("After Sorting");
+
+//             if (arr[i] < target) {
+//                 System.out.println(arr[i]);
+//             }
+            
+            
+//              if (i + 1 < arr.length) {
+//                  int nextValue = arr[i + 1];
+//                  System.out.println("Next value: " + nextValue);
+//              }
+//         }
+
+//         // Print the array
+//         System.out.println("Array elements:");
+//         for (int num : arr) {
+//             System.out.println(num); 
 
 
+
+
+
+//         }
+//     }
+// }
+// ]
+import java.util.*;
+
+public class demo{
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int rows = sc.nextInt();
+        int cols = sc.nextInt();
+        int[][]numbers = new int[rows][cols];
+        System.out.println(numbers[rows][cols]);}
+
+        
+        for(int i = 0;i<rows;i++){
+            for(int j=0;j<cols;j++)
+            {
+                numbers[i][j]=sc.nextInt();
+
+
+
+
+                
+            
 
 
             }
+            }
         }
+        // int size = sc.nextInt();
+        // int numbers[]= new int[size];
+        // for(int i = 0; i<size;i++){
+        //    numbers[i] = sc.nextInt();}
+        //    int x = sc.nextInt();
+           
+        
+        
+        // for(int i= 0; i<numbers.length;i++){
+        //     if(numbers[i]==x){
+        //     System.out.println("Number found at"+ ":"+ i);}
+        //     System.out.println(numbers[i]);
 
-    }
-}
+
+    
+
+
+
+
+
+
+
+
+    
+
+
+
+        
+
+
+
+        
+    
